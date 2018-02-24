@@ -19,14 +19,23 @@
   top: 20px;
   right: 20px;
   font-size: 40px;
-  color: #FE052C;
+  color: #0D2B3B;
   text-decoration: none;
 }
 
-#popUp.loader {
+.loader {
   background-image: url(../images/ajax_loader.gif);
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+#loadingGIF {
+  background-image: url(../images/ajax_loader.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 30px;
+  height: 30px;
+  margin: 50% auto 50% auto;
 }
 
 #popUp.loader .container {
@@ -43,7 +52,7 @@
 
 #popUp .popUpAction {
   padding: 10px;
-  background-color: #FE052C;
+  background-color: #955E6B;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -53,13 +62,13 @@
 }
 
 #popUp .popUpAction:hover {
-  color: #FE052C;
+  color: #955E6B;
   background: #fff;
 }
 
 /* Header styles */
 header {
-  background-color: #FE052C;
+  background-color: #6D1A2E;
   position: fixed;
   top: 0;
   left: 0;
@@ -103,7 +112,7 @@ header #search a {
 }
 
 header #search a:hover {
-  background: #CC0020;
+  background: #955E6B;
 }
 
 header #search img {
@@ -156,7 +165,7 @@ nav ul {
 
 nav ul li {
 	display:inline-block;
-	background-color: #CC0020;
+	background-color: #955E6B;
   position: relative;
 }
 
@@ -219,7 +228,7 @@ nav ul ul li {
 
 .article .articleContent h3 {
   margin-bottom: 0;
-  color: #FE052C;
+  color: #0D2B3B;
 }
 
 .article .articleContent h6 {

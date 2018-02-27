@@ -86,10 +86,12 @@ $('.container').on('click', 'ul.pages', function(){
       case "Tech":
         getNews(Tech);
         break;
-    default:
+      case "Latest":
         getNews(topNewsRoot);
-}
-
+        break;
+      default:
+        getNews(topNewsRoot);
+      }
 });
 
 
